@@ -3,11 +3,11 @@ import { Container,Inner,Item,Pane,Image,Title,SubTitle } from './style/jumbotro
 
 function Jumbotron({children,direction ='row', ...restprops}){
   return (
-    <Item direction = {direction}>
-        <Inner>
+    <Item {...restprops}>
+        <Inner direction = {direction}>
             {children}
         </Inner>
-    </Item>
+    </Item> 
   )
 }
 

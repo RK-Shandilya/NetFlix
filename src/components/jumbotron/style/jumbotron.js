@@ -6,6 +6,7 @@ export const Item = styled.div`
     border-bottom:8px solid #222;
     padding:50px 5%;
     overflow:hidden;
+    
 `
 
 export const Inner = styled.div`
